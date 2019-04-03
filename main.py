@@ -1,5 +1,9 @@
 import pyglet
 
+max_size = pyglet.graphics.GLint(0)
+pyglet.graphics.glGetIntegerv(pyglet.graphics.GL_MAX_TEXTURE_SIZE, max_size)
+print(max_size)
+
 GOOD_FILE = "8192x1px.png"
 BAD_FILE = "8193x1px.png"
 
