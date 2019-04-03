@@ -1,0 +1,1 @@
+# Pyglet_wide_image_issue
